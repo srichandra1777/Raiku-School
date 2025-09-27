@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: Execution Zones | Raiku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Raiku</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="track1.html">Raiku 101</a></li>
+                    <li><a href="track2.html" class="active">Validator & Protocol</a></li>
+                    <li><a href="track3.html">Developer & Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="lesson-container">
+        <div class="lesson-header">
+            <h1>Lesson 3: Execution Zones</h1>
+            <p>Understanding how execution zones isolate workloads in Raiku.</p>
+        </div>
+
+        <div class="lesson-content">
+            <h2>Execution Zones</h2>
+            <p>Execution zones isolate workloads so one app doesn't slow another.</p>
+        </div>
+
+        <div class="quiz-section">
+            <h2>Quiz: Execution Zones</h2>
+            <form class="quiz-form">
+                <div class="quiz-question" data-question-id="q1" data-correct="a">
+                    <h3>Q1. Why are execution zones important?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="a">
+                            A) To isolate apps
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="b">
+                            B) To lower token prices
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="c">
+                            C) To mint NFTs
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="d">
+                            D) To split validators
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q2" data-correct="a">
+                    <h3>Q2. Which problem do they prevent?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="a">
+                            A) App interference
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="b">
+                            B) Gas fee drops
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="c">
+                            C) Governance delays
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="d">
+                            D) Token dilution
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q3" data-correct="a">
+                    <h3>Q3. Example: a DeFi app won't delay an NFT mint because of zones. What is this?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="a">
+                            A) Isolation
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="b">
+                            B) Congestion
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="c">
+                            C) Randomization
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="d">
+                            D) Inflation
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q4" data-correct="a">
+                    <h3>Q4. True or False — Zones stop apps from interfering.</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="a">
+                            A) True
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="b">
+                            B) False
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="c">
+                            C) Sometimes
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="d">
+                            D) Not measurable
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Answers</button>
+                <div class="quiz-result" style="display: none; margin-top: 20px; padding: 15px; border-radius: 5px;"></div>
+            </form>
+        </div>
+
+        <div class="lesson-navigation">
+            <a href="track2-lesson2.html" class="nav-btn">← Previous Lesson</a>
+            <a href="track2-lesson4.html" class="nav-btn">Next Lesson →</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Raiku. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

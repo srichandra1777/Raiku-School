@@ -1,0 +1,21 @@
+{
+  "name": "raiku-school",
+  "version": "1.0.0",
+  "description": "Educational website for Raiku protocol",
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve .",
+    "build": "echo 'Building static site'"
+  },
+  "keywords": [
+    "raiku",
+    "solana",
+    "education",
+    "blockchain"
+  ],
+  "author": "srichandra70061",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

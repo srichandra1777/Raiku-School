@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2: Scheduling & Signals | Raiku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Raiku</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="track1.html">Raiku 101</a></li>
+                    <li><a href="track2.html">Validator & Protocol</a></li>
+                    <li><a href="track3.html" class="active">Developer & Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="lesson-container">
+        <div class="lesson-header">
+            <h1>Lesson 2: Scheduling & Signals</h1>
+            <p>Understanding how Raiku provides fast inclusion signals for transactions.</p>
+        </div>
+
+        <div class="lesson-content">
+            <h2>Scheduling & Signals</h2>
+            <p>Raiku provides inclusion signals within ~30 ms, so users know when transactions will land.</p>
+        </div>
+
+        <div class="quiz-section">
+            <h2>Quiz: Scheduling & Signals</h2>
+            <form class="quiz-form">
+                <div class="quiz-question" data-question-id="q1" data-correct="a">
+                    <h3>Q1. What is an inclusion signal?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="a">
+                            A) A message confirming slot
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="b">
+                            B) A token reward
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="c">
+                            C) An NFT alert
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="d">
+                            D) A validator fee
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q2" data-correct="a">
+                    <h3>Q2. Why does low latency matter?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="a">
+                            A) For traders to act fast
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="b">
+                            B) For NFT artwork
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="c">
+                            C) For Solana governance
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="d">
+                            D) For wallet storage
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q3" data-correct="a">
+                    <h3>Q3. When do signals arrive?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="a">
+                            A) Within ~30 ms
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="b">
+                            B) In 1 hour
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="c">
+                            C) After finality
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="d">
+                            D) Never
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q4" data-correct="a">
+                    <h3>Q4. True or False — Raiku signals give certainty before block inclusion.</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="a">
+                            A) True
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="b">
+                            B) False
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="c">
+                            C) Sometimes
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="d">
+                            D) Cannot be proven
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Answers</button>
+                <div class="quiz-result" style="display: none; margin-top: 20px; padding: 15px; border-radius: 5px;"></div>
+            </form>
+        </div>
+
+        <div class="lesson-navigation">
+            <a href="track3.html" class="nav-btn">← Previous Lesson</a>
+            <a href="track3-lesson3.html" class="nav-btn">Next Lesson →</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Raiku. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

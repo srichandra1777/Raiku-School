@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: How Raiku Works | Raiku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Raiku</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="track1.html" class="active">Raiku 101</a></li>
+                    <li><a href="track2.html">Validator & Protocol</a></li>
+                    <li><a href="track3.html">Developer & Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="lesson-container">
+        <div class="lesson-header">
+            <h1>Lesson 3: How Raiku Works</h1>
+            <p>Understanding the mechanisms behind Raiku's transaction processing.</p>
+        </div>
+
+        <div class="lesson-content">
+            <h2>How Raiku Works</h2>
+            <p><strong>JIT reservations:</strong> Reserve just before execution</p>
+            <p><strong>AOT reservations:</strong> Reserve far in advance</p>
+            <p><strong>Sidecar plugin:</strong> Validators sell guaranteed slots</p>
+            <p><strong>Inclusion signals:</strong> &lt;30ms confirmation when a slot is reserved</p>
+        </div>
+
+        <div class="quiz-section">
+            <h2>Quiz: How Raiku Works</h2>
+            <form class="quiz-form">
+                <div class="quiz-question" data-question-id="q1" data-correct="b">
+                    <h3>Q1. What does JIT stand for?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="a">
+                            A) Jump In Time
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="b">
+                            B) Just-in-Time
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="c">
+                            C) Java Internet Transaction
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="d">
+                            D) Joint Inclusion Technology
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q2" data-correct="a">
+                    <h3>Q2. What is AOT reservation?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="a">
+                            A) Ahead-of-Time
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="b">
+                            B) Always on Time
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="c">
+                            C) Auction of Transactions
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q2" value="d">
+                            D) Advanced Online Tool
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q3" data-correct="a">
+                    <h3>Q3. How do validators use Raiku?</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="a">
+                            A) They run the Sidecar
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="b">
+                            B) They shut down Solana nodes
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="c">
+                            C) They mine blocks
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q3" value="d">
+                            D) They switch consensus
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question-id="q4" data-correct="a">
+                    <h3>Q4. True or False — Raiku gives inclusion signals in &lt;30 ms.</h3>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="a">
+                            A) True
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="b">
+                            B) False
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="c">
+                            C) Only during gas wars
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q4" value="d">
+                            D) Cannot be verified
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Answers</button>
+                <div class="quiz-result" style="display: none; margin-top: 20px; padding: 15px; border-radius: 5px;"></div>
+            </form>
+        </div>
+
+        <div class="lesson-navigation">
+            <a href="track1-lesson2.html" class="nav-btn">← Previous Lesson</a>
+            <a href="track1-lesson4.html" class="nav-btn">Next Lesson →</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Raiku. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
