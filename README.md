@@ -7,7 +7,7 @@ An educational website for learning about the Raiku protocol on Solana.
 - Interactive lessons on Raiku fundamentals
 - Quizzes with instant feedback
 - Responsive design for all devices
-- Anoma-inspired UI with black background and red accents
+- UI with black background and red accents
 
 ## Deployment
 
@@ -54,7 +54,7 @@ To update the Twitter link:
 
 ## Design Inspiration
 
-This website takes design cues from the Anoma website, featuring:
+This website design featurings:
 - Dark theme with black backgrounds
 - Red accent colors
 - Modern, clean typography
@@ -62,5 +62,6 @@ This website takes design cues from the Anoma website, featuring:
 - Subtle shadows and hover effects
 
 ## Author
+
 
 Created by [srichandra70061](https://twitter.com/srichandra70061)
